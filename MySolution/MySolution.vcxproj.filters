@@ -20,19 +20,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basicDataTypes.h">
-      <Filter>Pliki źródłowe</Filter>
-    </ClInclude>
-    <ClInclude Include="forLoop.h">
+    <ClInclude Include="arrays_easy.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
-    <ClInclude Include="functions.h">
+    <ClInclude Include="pointer_easy.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
-    <ClInclude Include="pointer.h">
+    <ClInclude Include="functions_easy.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
-    <ClInclude Include="arrays.h">
+    <ClInclude Include="loop_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="types_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="conditional_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="output_easy.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
   </ItemGroup>

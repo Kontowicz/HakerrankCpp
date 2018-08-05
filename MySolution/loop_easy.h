@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-void forLoop()
+void loop()
 {
 	int a(0);
 	int b(0);

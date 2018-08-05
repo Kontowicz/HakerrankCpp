@@ -118,11 +118,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="arrays.h" />
-    <ClInclude Include="basicDataTypes.h" />
-    <ClInclude Include="forLoop.h" />
-    <ClInclude Include="functions.h" />
-    <ClInclude Include="pointer.h" />
+    <ClInclude Include="arrays_easy.h" />
+    <ClInclude Include="conditional_easy.h" />
+    <ClInclude Include="output_easy.h" />
+    <ClInclude Include="types_easy.h" />
+    <ClInclude Include="loop_easy.h" />
+    <ClInclude Include="functions_easy.h" />
+    <ClInclude Include="pointer_easy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

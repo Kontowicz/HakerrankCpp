@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-void dataTypes()
+void types()
 {
 	int integer(0);
 	long int longInt(0);
