@@ -2,7 +2,7 @@
 
 | Hackerrank exercise | MySolution |
 |---------------------|------------|
-|[Arrays Introduction](https://www.hackerrank.com/challenges/arrays-introduction/problem)|[MySolution](../master/MySolution/array_easy.h)|
+|[Arrays Introduction](https://www.hackerrank.com/challenges/arrays-introduction/problem)|[MySolution](../master/MySolution/arrays_easy.h)|
 |[Conditional Statements](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem)|[MySolution](../master/MySolution/conditional_easy.h)|
 |[Functions](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)|[MySolution](../master/MySolution/functions_easy.h)|
 |[For Loop](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem)|[MySolution](../master/MySolution/loop_easy.h)|
