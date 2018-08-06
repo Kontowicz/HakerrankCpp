@@ -41,5 +41,11 @@
     <ClInclude Include="output_easy.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
+    <ClInclude Include="sized_array_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="string_stream_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

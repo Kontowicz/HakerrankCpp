@@ -5,16 +5,19 @@
 #include "output_easy.h"
 #include "pointer_easy.h"
 #include "types_easy.h"
-
+#include "sized_array_easy.h"
+#include "string_stream_easy.h"
 void print()
 {
-	std::cout << 1 << ": arrays\n";
-	std::cout << 2 << ": conditional\n";
+	std::cout << 1 << ": Arrays Introduction\n";
+	std::cout << 2 << ": Conditional Statements\n";
 	std::cout << 3 << ": Functions\n";
-	std::cout << 4 << ": loop\n";
-	std::cout << 5 << ": output\n";
-	std::cout << 6 << ": pointer\n";
-	std::cout << 7 << ": types\n";
+	std::cout << 4 << ": For Loop\n";
+	std::cout << 5 << ": Input and Output\n";
+	std::cout << 6 << ": Pointer\n";
+	std::cout << 7 << ": Basic Data types\n";
+	std::cout << 8 << ": Variable Sized Arrays\n";
+	std::cout << 9 << ": String Stream\n";
 }
 
 int main()
@@ -33,6 +36,8 @@ int main()
 		case 5: output(); break;
 		case 6: pointer(); break;
 		case 7: types(); break;
+		case 8: sized_arrays(); break;
+		case 9: string_stream(); break;
 		case 0: break;
 		}
 	} while (n > 0);

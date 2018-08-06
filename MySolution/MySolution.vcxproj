@@ -121,6 +121,8 @@
     <ClInclude Include="arrays_easy.h" />
     <ClInclude Include="conditional_easy.h" />
     <ClInclude Include="output_easy.h" />
+    <ClInclude Include="sized_array_easy.h" />
+    <ClInclude Include="string_stream_easy.h" />
     <ClInclude Include="types_easy.h" />
     <ClInclude Include="loop_easy.h" />
     <ClInclude Include="functions_easy.h" />
