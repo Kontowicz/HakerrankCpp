@@ -10,4 +10,7 @@
 |[Pointer](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem)|[MySolution](../master/MySolution/pointer_easy.h)|
 |[Variable Sized Arrays](https://www.hackerrank.com/challenges/variable-sized-arrays/problem)|[MySolution](../master/MySolution/sized_array_easy.h)|
 |[String Stream](https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem)|[MySolution](../master/MySolution/string_stream_easy.h)|
+|[Struct](https://www.hackerrank.com/challenges/c-tutorial-struct/problem)|[MySolution](../master/MySolution/structs.h)|
+|[Strings](https://www.hackerrank.com/challenges/c-tutorial-strings/problem)|[MySolution](../master/MySolution/strings.h)|
+|[Class](https://www.hackerrank.com/challenges/c-tutorial-class/problem)|[MySolution](../master/MySolution/class.h)|
 

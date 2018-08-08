@@ -47,5 +47,14 @@
     <ClInclude Include="string_stream_easy.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

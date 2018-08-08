@@ -7,6 +7,9 @@
 #include "types_easy.h"
 #include "sized_array_easy.h"
 #include "string_stream_easy.h"
+#include "strings.h"
+#include "structs.h"
+#include "class.h"
 void print()
 {
 	std::cout << 1 << ": Arrays Introduction\n";
@@ -18,6 +21,8 @@ void print()
 	std::cout << 7 << ": Basic Data types\n";
 	std::cout << 8 << ": Variable Sized Arrays\n";
 	std::cout << 9 << ": String Stream\n";
+	std::cout << 10 << ": Strings\n";
+	std::cout << 11 << ": Structs\n";
 }
 
 int main()
@@ -38,6 +43,9 @@ int main()
 		case 7: types(); break;
 		case 8: sized_arrays(); break;
 		case 9: string_stream(); break;
+		case 10: strings(); break;
+		case 11: structs(); break;
+		case 12: class_(); break;
 		case 0: break;
 		}
 	} while (n > 0);

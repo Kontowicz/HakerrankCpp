@@ -119,10 +119,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrays_easy.h" />
+    <ClInclude Include="class.h" />
     <ClInclude Include="conditional_easy.h" />
     <ClInclude Include="output_easy.h" />
     <ClInclude Include="sized_array_easy.h" />
+    <ClInclude Include="strings.h" />
     <ClInclude Include="string_stream_easy.h" />
+    <ClInclude Include="structs.h" />
     <ClInclude Include="types_easy.h" />
     <ClInclude Include="loop_easy.h" />
     <ClInclude Include="functions_easy.h" />
