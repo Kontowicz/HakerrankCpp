@@ -18,5 +18,5 @@
 |[Vecotor Sort](https://www.hackerrank.com/challenges/vector-sort/problem)|[MySolution](../master/MySolution/vector_sort.h)|
 |[Vecotor Erase](https://www.hackerrank.com/challenges/vector-erase/problem)|[MySolution](../master/MySolution/vector_erase.h)|
 |[Lower Bound](https://www.hackerrank.com/challenges/cpp-lower-bound/problem)|[MySolution](../master/MySolution/Lower_Bound_STL.h)|
-|[Sets STL](https://www.hackerrank.com/challenges/cpp-sets/problem)|{MySolution](../master/MySolution/sets_STL.h)|
+|[Sets STL](https://www.hackerrank.com/challenges/cpp-sets/problem)|[MySolution](../master/MySolution/sets_STL.h)|
 |[Maps STL](https://www.hackerrank.com/challenges/cpp-maps/problem)|[MySolution](../master/MySolution/maps_stl.h)|
