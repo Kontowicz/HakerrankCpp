@@ -53,7 +53,25 @@
     <ClInclude Include="structs.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
-    <ClInclude Include="class.h">
+    <ClInclude Include="classes_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="box_it_easy.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_sort.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_erase.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="Lower_Bound_STL.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="sets_STL.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="maps_stl.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
   </ItemGroup>

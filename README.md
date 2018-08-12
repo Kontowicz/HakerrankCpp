@@ -13,4 +13,10 @@
 |[Struct](https://www.hackerrank.com/challenges/c-tutorial-struct/problem)|[MySolution](../master/MySolution/structs.h)|
 |[Strings](https://www.hackerrank.com/challenges/c-tutorial-strings/problem)|[MySolution](../master/MySolution/strings.h)|
 |[Class](https://www.hackerrank.com/challenges/c-tutorial-class/problem)|[MySolution](../master/MySolution/class.h)|
-
+|[Classes and Objects](https://www.hackerrank.com/challenges/classes-objects/problem)|[MySolution](../master/MySolution/classes_easy.h)|
+|[Box It](https://www.hackerrank.com/challenges/box-it/problem)|[MySolution](../master/MySolution/box_it_easy.h)|
+|[Vecotor Sort](https://www.hackerrank.com/challenges/vector-sort/problem)|[MySolution](../master/MySolution/vector_sort.h)|
+|[Vecotor Erase](https://www.hackerrank.com/challenges/vector-erase/problem)|[MySolution](../master/MySolution/vector_erase.h)|
+|[Lower Bound](https://www.hackerrank.com/challenges/cpp-lower-bound/problem)|[MySolution](../master/MySolution/Lower_Bound_STL.h)|
+|[Sets STL](https://www.hackerrank.com/challenges/cpp-sets/problem)|{MySolution](../master/MySolution/sets_STL.h)|
+|[Maps STL](https://www.hackerrank.com/challenges/cpp-maps/problem)|[MySolution](../master/MySolution/maps_stl.h)|

@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 
-struct Student
+struct Studenta
 {
 	int age;
 	std::string first_name;
@@ -12,7 +12,7 @@ struct Student
 
 void structs()
 {
-	Student st;
+	Studenta st;
 
 	std::cin >> st.age >> st.first_name >> st.last_name >> st.standard;
 	std::cout << st.age << " " << st.first_name << " " << st.last_name << " " << st.standard;
