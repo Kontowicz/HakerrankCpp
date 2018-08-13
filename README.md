@@ -26,3 +26,4 @@
 |[Overload Operators](https://www.hackerrank.com/challenges/overload-operators/problem)|[MySolution](../master/MySolution/overload_operators.h)|
 |[Multi Level Inheritance](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem)|[MySolution](../master/MySolution/multi_level_inheritance.h)|
 |[Class Templates](https://www.hackerrank.com/challenges/c-class-templates/problem)|[MySolution](../master/MySolution/class_Templates.h)|
+
