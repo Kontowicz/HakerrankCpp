@@ -20,3 +20,9 @@
 |[Lower Bound](https://www.hackerrank.com/challenges/cpp-lower-bound/problem)|[MySolution](../master/MySolution/Lower_Bound_STL.h)|
 |[Sets STL](https://www.hackerrank.com/challenges/cpp-sets/problem)|[MySolution](../master/MySolution/sets_STL.h)|
 |[Maps STL](https://www.hackerrank.com/challenges/cpp-maps/problem)|[MySolution](../master/MySolution/maps_stl.h)|
+|[Pretty Print](https://www.hackerrank.com/challenges/prettyprint/problem)|[MySolution](../master/MySolution/print_pretty.h)|
+|[Inheritance Introduction](https://www.hackerrank.com/challenges/inheritance-introduction/problem)|[MySolution](../master/MySolution/inheritance_intro.h)|
+|[Rectangle Area](https://www.hackerrank.com/challenges/rectangle-area/problem)|[MySolution](../master/MySolution/rectange_area.h)|
+|[Overload Operators](https://www.hackerrank.com/challenges/overload-operators/problem)|[MySolution](../master/MySolution/overload_operators.h)|
+|[Multi Level Inheritance](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem)|[MySolution](../master/MySolution/multi_level_inheritance.h)|
+|[Class Templates](https://www.hackerrank.com/challenges/c-class-templates/problem)|[MySolution](../master/MySolution/class_Templates.h)|

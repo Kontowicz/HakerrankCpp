@@ -17,6 +17,13 @@
 #include "Lower_Bound_STL.h"
 #include "sets_STL.h"
 #include "maps_stl.h"
+#include "print_pretty.h"
+#include "inheritance_intro.h"
+#include "rectange_area.h"
+#include "overload_operators.h"
+#include "multi_level_inheritance.h"
+#include "class_Templates.h"
+
 void print()
 {
 	std::cout << 1 << ": Arrays Introduction\n";
@@ -38,6 +45,12 @@ void print()
 	std::cout << 17 << ": Lowet Bound STL\n";
 	std::cout << 18 << ": Sets STL\n";
 	std::cout << 19 << ": Maps STL\n";
+	std::cout << 20 << ": Print Pretty\n";
+	std::cout << 21 << ": Inheritance Introduction\n";
+	std::cout << 22 << ": Rectangle Area\n";
+	std::cout << 23 << ": Overload Operators\n";
+	std::cout << 24 << ": Multi Level Inheritance\n";
+	std::cout << 25 << ": Class Templates\n";
 }
 
 int main()
@@ -70,6 +83,12 @@ int main()
 		case 17: lower_bound(); break;
 		case 18: sets_STL(); break;
 		case 19: maps(); break;
+		case 20: print_pretty(); break;
+		case 21: inheritance_intro(); break;
+		case 22: rectange_area(); break;
+		case 23: overload_operators(); break;
+		case 24: multi_level_inheritance(); break;
+		case 25: class_templates(); break;
 		case 0: break;
 		}
 	} while (n > 0);

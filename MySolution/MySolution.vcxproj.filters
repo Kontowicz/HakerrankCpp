@@ -74,5 +74,23 @@
     <ClInclude Include="maps_stl.h">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
+    <ClInclude Include="print_pretty.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritance_intro.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="rectange_area.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="overload_operators.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_level_inheritance.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="class_Templates.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
