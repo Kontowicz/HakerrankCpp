@@ -1,7 +1,7 @@
 <H3>Easy<H3>
 
-| Hackerrank exercise | MySolution |
-|---------------------|------------|
+|Number| Hackerrank exercise | MySolution |
+|-|---------------------|------------|
 |1|[Arrays Introduction](https://www.hackerrank.com/challenges/arrays-introduction/problem)|[MySolution](../master/MySolution/arrays_easy.h)|
 |2|[Conditional Statements](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem)|[MySolution](../master/MySolution/conditional_easy.h)|
 |3|[Functions](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)|[MySolution](../master/MySolution/functions_easy.h)|
@@ -28,6 +28,8 @@
 |24|[Class Templates](https://www.hackerrank.com/challenges/c-class-templates/problem)|[MySolution](../master/MySolution/class_Templates.h)|
 
 <H3>Medium</H3>
+| Number | Hackerrank exercise | MySolution |
+|--------|---------------------|------------|
 |1|[Inherited Code](https://www.hackerrank.com/challenges/inherited-code/problem)|[MySolution](../master/MySolution/inherited_code_medium.h)|
 |2|[Overloading Ostream Operator](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem)|[MySolution](../master/MySolution/overloading_ostream_operator_medium.h)|
 
