@@ -28,6 +28,7 @@
 |24|[Class Templates](https://www.hackerrank.com/challenges/c-class-templates/problem)|[MySolution](../master/MySolution/class_Templates.h)|
 
 <H3>Medium</H3>
+
 | Number | Hackerrank exercise | MySolution |
 |--------|---------------------|------------|
 |1|[Inherited Code](https://www.hackerrank.com/challenges/inherited-code/problem)|[MySolution](../master/MySolution/inherited_code_medium.h)|
