@@ -27,3 +27,7 @@
 |23|[Multi Level Inheritance](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem)|[MySolution](../master/MySolution/multi_level_inheritance.h)|
 |24|[Class Templates](https://www.hackerrank.com/challenges/c-class-templates/problem)|[MySolution](../master/MySolution/class_Templates.h)|
 
+<H3>Medium</H3>
+|1|[Inherited Code](https://www.hackerrank.com/challenges/inherited-code/problem)|[MySolution](../master/MySolution/inherited_code_medium.h)|
+|2|[Overloading Ostream Operator](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem)|[MySolution](../master/MySolution/overloading_ostream_operator_medium.h)|
+

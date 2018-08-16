@@ -1,31 +1,9 @@
-#include "arrays_easy.h"
-#include "conditional_easy.h"
-#include "functions_easy.h"
-#include "loop_easy.h"
-#include "output_easy.h"
-#include "pointer_easy.h"
-#include "types_easy.h"
-#include "sized_array_easy.h"
-#include "string_stream_easy.h"
-#include "strings.h"
-#include "structs.h"
-#include "class.h"
-#include "classes_easy.h"
-#include "box_it_easy.h"
-#include "vector_sort.h"
-#include "vector_erase.h"
-#include "Lower_Bound_STL.h"
-#include "sets_STL.h"
-#include "maps_stl.h"
-#include "print_pretty.h"
-#include "inheritance_intro.h"
-#include "rectange_area.h"
-#include "overload_operators.h"
-#include "multi_level_inheritance.h"
-#include "class_Templates.h"
+#include "include_easy.h"
+#include "include_medium.h"
 
 void print()
 {
+	std::cout << "-----EASY-----\n";
 	std::cout << 1 << ": Arrays Introduction\n";
 	std::cout << 2 << ": Conditional Statements\n";
 	std::cout << 3 << ": Functions\n";
@@ -51,6 +29,9 @@ void print()
 	std::cout << 23 << ": Overload Operators\n";
 	std::cout << 24 << ": Multi Level Inheritance\n";
 	std::cout << 25 << ": Class Templates\n";
+	std::cout << "-----MEDIUM-----\n";
+	std::cout << 26 << ": Inherited Code\n";
+	std::cout << 27 << ": Overloading Ostream Operator\n";
 }
 
 int main()
@@ -64,6 +45,7 @@ int main()
 		std::cin.ignore();
 		switch (n)
 		{
+#pragma region EASY
 		case 1: arrays(); break;
 		case 2: conditional(); break;
 		case 3: functions(); break;
@@ -89,6 +71,12 @@ int main()
 		case 23: overload_operators(); break;
 		case 24: multi_level_inheritance(); break;
 		case 25: class_templates(); break;
+#pragma endregion 
+
+#pragma region MEDIUM
+		case 26: code(); break;
+		case 27: overloading_ostream_operator_medium(); break;
+#pragma endregion 
 		case 0: break;
 		}
 	} while (n > 0);
