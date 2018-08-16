@@ -1,7 +1,7 @@
 <H3>Easy<H3>
 
 |Number| Hackerrank exercise | MySolution |
-|-|---------------------|------------|
+|------|---------------------|------------|
 |1|[Arrays Introduction](https://www.hackerrank.com/challenges/arrays-introduction/problem)|[MySolution](../master/MySolution/arrays_easy.h)|
 |2|[Conditional Statements](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem)|[MySolution](../master/MySolution/conditional_easy.h)|
 |3|[Functions](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)|[MySolution](../master/MySolution/functions_easy.h)|
