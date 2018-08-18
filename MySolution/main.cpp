@@ -32,8 +32,8 @@ void print()
 	std::cout << "-----MEDIUM-----\n";
 	std::cout << 26 << ": Inherited Code\n";
 	std::cout << 27 << ": Overloading Ostream Operator\n";
-	
 	std::cout << 28 << ": Operator Overloading\n";
+	std::cout << 29 << ": Virtual Functions\n";
 }
 
 int main()
@@ -79,6 +79,7 @@ int main()
 		case 26: code(); break;
 		case 27: overloading_ostream_operator_medium(); break;
 		case 28: operator_overloading_medium(); break;
+		case 29: virtual_functions_medium(); break;
 #pragma endregion 
 		case 0: break;
 		}
