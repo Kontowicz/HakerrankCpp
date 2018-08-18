@@ -5,6 +5,7 @@ using std::cin;
 using std::cout;
 using std::vector;
 
+
 class Matrix{
     public:
     vector<vector<int>> a;
