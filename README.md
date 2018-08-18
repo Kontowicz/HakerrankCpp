@@ -33,4 +33,4 @@
 |--------|---------------------|------------|
 |1|[Inherited Code](https://www.hackerrank.com/challenges/inherited-code/problem)|[MySolution](../master/MySolution/inherited_code_medium.h)|
 |2|[Overloading Ostream Operator](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem)|[MySolution](../master/MySolution/overloading_ostream_operator_medium.h)|
-
+|3|[Operator Overloading](https://www.hackerrank.com/challenges/operator-overloading/problem)|[MySolution](../master/MySolution/perator_overloading_medium.h)|
