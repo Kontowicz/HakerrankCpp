@@ -34,6 +34,7 @@ void print()
 	std::cout << 27 << ": Overloading Ostream Operator\n";
 	std::cout << 28 << ": Operator Overloading\n";
 	std::cout << 29 << ": Virtual Functions\n";
+	std::cout << 30 << ": Cpp Exception Handling\n";
 }
 
 int main()
@@ -80,6 +81,7 @@ int main()
 		case 27: overloading_ostream_operator_medium(); break;
 		case 28: operator_overloading_medium(); break;
 		case 29: virtual_functions_medium(); break;
+		case 30: cpp_exception_handling(); break;
 #pragma endregion 
 		case 0: break;
 		}
