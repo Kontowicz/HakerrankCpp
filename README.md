@@ -36,5 +36,6 @@
 |3|[Operator Overloading](https://www.hackerrank.com/challenges/operator-overloading/problem)|[MySolution](../master/MySolution/operator_overloading_medium.h)|
 |4|[Virtual Functions](https://www.hackerrank.com/challenges/virtual-functions/problem)|[MySolution](../master/MySolution/virtual_functions_medium.h)|
 |5|[Cpp Exception Handling](https://www.hackerrank.com/challenges/cpp-exception-handling/problem)|[MySolution](../master/MySolution/cpp_exception_handling_medium.h)|
+|6|[Accessing Inherited Functions](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem)|[MySolution](../master/MySolution/accessing_inherited_functions_medium.h)|
 
 

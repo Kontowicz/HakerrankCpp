@@ -35,6 +35,7 @@ void print()
 	std::cout << 28 << ": Operator Overloading\n";
 	std::cout << 29 << ": Virtual Functions\n";
 	std::cout << 30 << ": Cpp Exception Handling\n";
+	std::cout << 31 << ": Accessing Inherited Functions\n";
 }
 
 int main()
@@ -82,6 +83,7 @@ int main()
 		case 28: operator_overloading_medium(); break;
 		case 29: virtual_functions_medium(); break;
 		case 30: cpp_exception_handling(); break;
+		case 31: accessing_inherited_functions(); break;
 #pragma endregion 
 		case 0: break;
 		}
