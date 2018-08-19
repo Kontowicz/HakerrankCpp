@@ -1,5 +1,5 @@
 #pragma once
-#include <iostrem>
+#include <iostream>
 #include <vector>
 using std::cin;
 using std::cout;
@@ -55,7 +55,7 @@ void operator_overloading_medium(){
          for(j=0;j<m;j++) {
             cout << result.a[i][j] << " ";
          }
-         cout << endl;
+         cout << std::endl;
       }
    }  
 }

@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki zasobów\Easy">
+      <UniqueIdentifier>{6951b900-b1ea-4622-a754-b51db7e68885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\Medium">
+      <UniqueIdentifier>{e465d8b3-63d5-460e-8982-29c66a621be3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,76 +27,100 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrays_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="pointer_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="functions_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="loop_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="types_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="conditional_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="output_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="sized_array_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="string_stream_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="strings.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="structs.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="classes_easy.h">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\Easy</Filter>
     </ClInclude>
     <ClInclude Include="box_it_easy.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="vector_sort.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="vector_erase.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="Lower_Bound_STL.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="sets_STL.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="maps_stl.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="print_pretty.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="inheritance_intro.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="rectange_area.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="overload_operators.h">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
-    <ClInclude Include="multi_level_inheritance.h">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\Easy</Filter>
     </ClInclude>
     <ClInclude Include="class_Templates.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="classes_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="conditional_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="functions_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritance_intro.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="loop_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Lower_Bound_STL.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="maps_stl.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_level_inheritance.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="output_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="overload_operators.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="print_pretty.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="rectange_area.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="sets_STL.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="sized_array_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="string_stream_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="types_easy.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_erase.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_sort.h">
+      <Filter>Pliki zasobów\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="inherited_code_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="overloading_ostream_operator_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="include_easy.h">
       <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="include_medium.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp_exception_handling_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="operator_overloading_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual_functions_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="accessing_inherited_functions_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

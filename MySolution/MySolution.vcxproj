@@ -118,16 +118,23 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="accessing_inherited_functions_medium.h" />
     <ClInclude Include="arrays_easy.h" />
     <ClInclude Include="box_it_easy.h" />
     <ClInclude Include="classes_easy.h" />
     <ClInclude Include="class_Templates.h" />
     <ClInclude Include="conditional_easy.h" />
+    <ClInclude Include="cpp_exception_handling_medium.h" />
+    <ClInclude Include="include_easy.h" />
+    <ClInclude Include="include_medium.h" />
     <ClInclude Include="inheritance_intro.h" />
+    <ClInclude Include="inherited_code_medium.h" />
     <ClInclude Include="Lower_Bound_STL.h" />
     <ClInclude Include="maps_stl.h" />
     <ClInclude Include="multi_level_inheritance.h" />
+    <ClInclude Include="operator_overloading_medium.h" />
     <ClInclude Include="output_easy.h" />
+    <ClInclude Include="overloading_ostream_operator_medium.h" />
     <ClInclude Include="overload_operators.h" />
     <ClInclude Include="print_pretty.h" />
     <ClInclude Include="rectange_area.h" />
@@ -142,6 +149,7 @@
     <ClInclude Include="pointer_easy.h" />
     <ClInclude Include="vector_erase.h" />
     <ClInclude Include="vector_sort.h" />
+    <ClInclude Include="virtual_functions_medium.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,8 @@
-#include <cmath>
-#include <cstdio>
+#pragma once
+
 #include <vector>
 #include <iostream>
-#include <algorithm>
+
 using namespace std;
 
 
@@ -14,7 +14,7 @@ public:
     virtual void putdata(){};
 };
 
-class Student: public Person{
+class Student__: public Person{
 private:
     static int global_id;
     int local_id;
@@ -61,13 +61,14 @@ public:
         cout<<name<<" "<<age<<" "<<publications<<" "<<local_id<<"\n";
     }
 };
-int Student::global_id = 0;
+int Student__::global_id = 0;
 int Professor::global_id = 0;
 
 void virtual_functions_medium(){
 	int n, val;
+	std::vector<Person*> per;
     cin>>n; //The number of objects that is going to be created.
-    Person *per[n];
+	per.resize(n);
 
     for(int i = 0;i < n;i++){
 
@@ -77,7 +78,7 @@ void virtual_functions_medium(){
             per[i] = new Professor;
 
         }
-        else per[i] = new Student; // Else the current object is of type Student
+        else per[i] = new Student__; // Else the current object is of type Student__
 
         per[i]->getdata(); // Get the data from the user.
 

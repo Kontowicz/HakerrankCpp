@@ -51,7 +51,7 @@ int main()
 		{
 #pragma region EASY
 		case 1: arrays(); break;
-		case 2: conditional(); break;
+		case 2: conditional_(); break;
 		case 3: functions(); break;
 		case 4: loop(); break;
 		case 5: output(); break;

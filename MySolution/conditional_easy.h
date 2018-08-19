@@ -2,7 +2,7 @@
 #include <ios>
 #include <iostream>
 
-void conditional()
+void conditional_()
 {
 	int n;
 	std::cin >> n;
