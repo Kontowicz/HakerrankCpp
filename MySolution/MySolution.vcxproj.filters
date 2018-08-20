@@ -122,5 +122,14 @@
     <ClInclude Include="accessing_inherited_functions_medium.h">
       <Filter>Pliki zasobów\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="hotel_prices_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp_class_template_specialization_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="messages_order_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

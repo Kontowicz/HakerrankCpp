@@ -36,6 +36,8 @@ void print()
 	std::cout << 29 << ": Virtual Functions\n";
 	std::cout << 30 << ": Cpp Exception Handling\n";
 	std::cout << 31 << ": Accessing Inherited Functions\n";
+	std::cout << 32 << ": Hotel Prices\n";
+	std::cout << 33 << ": Cpp Class Template Specialization\n";
 }
 
 int main()
@@ -84,6 +86,9 @@ int main()
 		case 29: virtual_functions_medium(); break;
 		case 30: cpp_exception_handling(); break;
 		case 31: accessing_inherited_functions(); break;
+		case 32: hotel_prices(); break;
+		case 33: cpp_class_template_specialization(); break;
+		case 34: messages_order(); break;
 #pragma endregion 
 		case 0: break;
 		}

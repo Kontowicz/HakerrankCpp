@@ -37,5 +37,8 @@
 |4|[Virtual Functions](https://www.hackerrank.com/challenges/virtual-functions/problem)|[MySolution](../master/MySolution/virtual_functions_medium.h)|
 |5|[Cpp Exception Handling](https://www.hackerrank.com/challenges/cpp-exception-handling/problem)|[MySolution](../master/MySolution/cpp_exception_handling_medium.h)|
 |6|[Accessing Inherited Functions](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem)|[MySolution](../master/MySolution/accessing_inherited_functions_medium.h)|
+|7|[Hotel Prices](https://www.hackerrank.com/challenges/hotel-prices/problem)|[MySolution](../master/MySolution/)|
+|8|[Cpp Class Template Specialization](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem)|[MySolution](..master/MySolution/)|
+|9|[Messages Order](https://www.hackerrank.com/challenges/messages-order/problem)|[MySolution](../master/MySolution/messages_order_medium.h)|
 
 

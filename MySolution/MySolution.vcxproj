@@ -124,13 +124,16 @@
     <ClInclude Include="classes_easy.h" />
     <ClInclude Include="class_Templates.h" />
     <ClInclude Include="conditional_easy.h" />
+    <ClInclude Include="cpp_class_template_specialization_medium.h" />
     <ClInclude Include="cpp_exception_handling_medium.h" />
+    <ClInclude Include="hotel_prices_medium.h" />
     <ClInclude Include="include_easy.h" />
     <ClInclude Include="include_medium.h" />
     <ClInclude Include="inheritance_intro.h" />
     <ClInclude Include="inherited_code_medium.h" />
     <ClInclude Include="Lower_Bound_STL.h" />
     <ClInclude Include="maps_stl.h" />
+    <ClInclude Include="messages_order_medium.h" />
     <ClInclude Include="multi_level_inheritance.h" />
     <ClInclude Include="operator_overloading_medium.h" />
     <ClInclude Include="output_easy.h" />
