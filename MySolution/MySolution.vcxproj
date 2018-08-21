@@ -126,6 +126,7 @@
     <ClInclude Include="conditional_easy.h" />
     <ClInclude Include="cpp_class_template_specialization_medium.h" />
     <ClInclude Include="cpp_exception_handling_medium.h" />
+    <ClInclude Include="exceptional_server_medium.h" />
     <ClInclude Include="hotel_prices_medium.h" />
     <ClInclude Include="include_easy.h" />
     <ClInclude Include="include_medium.h" />

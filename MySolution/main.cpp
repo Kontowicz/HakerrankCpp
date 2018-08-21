@@ -89,6 +89,7 @@ int main()
 		case 32: hotel_prices(); break;
 		case 33: cpp_class_template_specialization(); break;
 		case 34: messages_order(); break;
+		case 35: exceptional_server(); break;
 #pragma endregion 
 		case 0: break;
 		}

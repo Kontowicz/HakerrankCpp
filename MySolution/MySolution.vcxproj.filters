@@ -131,5 +131,8 @@
     <ClInclude Include="messages_order_medium.h">
       <Filter>Pliki zasobów\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="exceptional_server_medium.h">
+      <Filter>Pliki zasobów\Medium</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

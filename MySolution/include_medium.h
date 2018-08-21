@@ -9,3 +9,4 @@
 #include "hotel_prices_medium.h"
 #include "cpp_class_template_specialization_medium.h"
 #include "messages_order_medium.h"
+#include "exceptional_server_medium.h"
