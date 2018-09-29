@@ -48,4 +48,5 @@
 
 |Number| Hackerrank exercise | MySolution |
 |------|---------------------|------------|
-|1|[Magic spells ](https://www.hackerrank.com/challenges/magic-spells/problem)|[MySolution](../master/MySolution/magic_spells_hard.h)|
+|1|[Bitset 1 ](https://www.hackerrank.com/challenges/bitset-1/problem)|[MySolution](../master/MySolution/bitset_1_hard.h)|
+|2|[Magic spells ](https://www.hackerrank.com/challenges/magic-spells/problem)|[MySolution](../master/MySolution/magic_spells_hard.h)|
