@@ -2,18 +2,21 @@
 #include <string>
 #include <iostream>
 
-struct Studenta
+namespace _14
 {
-	int age;
-	std::string first_name;
-	std::string last_name;
-	int standard;
-};
+	struct Studenta
+	{
+		int age;
+		std::string first_name;
+		std::string last_name;
+		int standard;
+	};
 
-void structs()
-{
-	Studenta st;
+	void c_tutorial_struct()
+	{
+		Studenta st;
 
-	std::cin >> st.age >> st.first_name >> st.last_name >> st.standard;
-	std::cout << st.age << " " << st.first_name << " " << st.last_name << " " << st.standard;
+		std::cin >> st.age >> st.first_name >> st.last_name >> st.standard;
+		std::cout << st.age << " " << st.first_name << " " << st.last_name << " " << st.standard;
+	}
 }

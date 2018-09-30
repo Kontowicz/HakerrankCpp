@@ -2,57 +2,59 @@
 #include <iostream>
 #include <vector>
 
-class HotelRoom {
-public:
-	HotelRoom(int bedrooms, int bathrooms)
-		: bedrooms_(bedrooms), bathrooms_(bathrooms) {}
-
-	virtual int get_price() {
-		return 50 * bedrooms_ + 100 * bathrooms_;
-	}
-private:
-	int bedrooms_;
-	int bathrooms_;
-};
-
-class HotelApartment : public HotelRoom {
-public:
-	HotelApartment(int bedrooms, int bathrooms)
-		: HotelRoom(bedrooms, bathrooms) {}
-
-	virtual int get_price() {
-		return HotelRoom::get_price() + 100;
-	}
-};
-
-
-void hotel_prices()
+namespace _22
 {
-	int n;
-	std::cin >> n;
-	std::vector<HotelRoom*> rooms;
-	for (int i = 0; i < n; ++i) {
-		std::string room_type;
-		int bedrooms;
-		int bathrooms;
-		std::cin >> room_type >> bedrooms >> bathrooms;
-		if (room_type == "standard") {
-			rooms.push_back(new HotelRoom(bedrooms, bathrooms));
+	class HotelRoom {
+	public:
+		HotelRoom(int bedrooms, int bathrooms)
+			: bedrooms_(bedrooms), bathrooms_(bathrooms) {}
+
+		virtual int get_price() {
+			return 50 * bedrooms_ + 100 * bathrooms_;
 		}
-		else {
-			rooms.push_back(new HotelApartment(bedrooms, bathrooms));
+	private:
+		int bedrooms_;
+		int bathrooms_;
+	};
+
+	class HotelApartment : public HotelRoom {
+	public:
+		HotelApartment(int bedrooms, int bathrooms)
+			: HotelRoom(bedrooms, bathrooms) {}
+
+		virtual int get_price() {
+			return HotelRoom::get_price() + 100;
 		}
-	}
+	};
 
-	int total_profit = 0;
-	for (auto room : rooms) {
-		total_profit += room->get_price();
-	}
-	std::cout << total_profit << std::endl;
 
-	for (auto room : rooms) {
-		delete room;
-	}
-	rooms.clear();
+	void hotel_prices()
+	{
+		int n;
+		std::cin >> n;
+		std::vector<HotelRoom*> rooms;
+		for (int i = 0; i < n; ++i) {
+			std::string room_type;
+			int bedrooms;
+			int bathrooms;
+			std::cin >> room_type >> bedrooms >> bathrooms;
+			if (room_type == "standard") {
+				rooms.push_back(new HotelRoom(bedrooms, bathrooms));
+			}
+			else {
+				rooms.push_back(new HotelApartment(bedrooms, bathrooms));
+			}
+		}
 
+		int total_profit = 0;
+		for (auto room : rooms) {
+			total_profit += room->get_price();
+		}
+		std::cout << total_profit << std::endl;
+
+		for (auto room : rooms) {
+			delete room;
+		}
+		rooms.clear();
+	}
 }

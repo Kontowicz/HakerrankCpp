@@ -2,18 +2,20 @@
 #include <iostream>
 #include <vector>
 
-
-void arrays()
+namespace _2
 {
-	std::vector<int> num;
-	int a(0);
-	std::cin >> a;
-	for (int i = 0; i<a; i++) {
-		int b(0);
-		std::cin >> b;
-		num.push_back(b);
-	}
-	for (auto it = num.rbegin(); it != num.rend(); it++) {
-		std::cout << *it << " ";
+	void arrays_introduction()
+	{
+		std::vector<int> num;
+		int a(0);
+		std::cin >> a;
+		for (int i = 0; i<a; i++) {
+			int b(0);
+			std::cin >> b;
+			num.push_back(b);
+		}
+		for (auto it = num.rbegin(); it != num.rend(); it++) {
+			std::cout << *it << " ";
+		}
 	}
 }

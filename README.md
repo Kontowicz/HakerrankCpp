@@ -21,11 +21,12 @@
 |17|[C tutorial struct ](https://www.hackerrank.com/challenges/c-tutorial-struct/problem)|[MySolution](../master/MySolution/c_tutorial_struct_easy.h)|
 |18|[Inheritance introduction ](https://www.hackerrank.com/challenges/inheritance-introduction/problem)|[MySolution](../master/MySolution/inheritance_introduction_easy.h)|
 |19|[Multi level inheritance cpp ](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem)|[MySolution](../master/MySolution/multi_level_inheritance_cpp_easy.h)|
-|20|[Prettyprint ](https://www.hackerrank.com/challenges/prettyprint/problem)|[MySolution](../master/MySolution/prettyprint_easy.h)|
-|21|[Rectange area ](https://www.hackerrank.com/challenges/rectange-area/problem)|[MySolution](../master/MySolution/rectange_area_easy.h)|
-|22|[Variable sized arrays ](https://www.hackerrank.com/challenges/variable-sized-arrays/problem)|[MySolution](../master/MySolution/variable_sized_arrays_easy.h)|
-|23|[Vector erase ](https://www.hackerrank.com/challenges/vector-erase/problem)|[MySolution](../master/MySolution/vector_erase_easy.h)|
-|24|[Vector sort ](https://www.hackerrank.com/challenges/vector-sort/problem)|[MySolution](../master/MySolution/vector_sort_easy.h)|
+|20|[Overload operators ](https://www.hackerrank.com/challenges/overload-operators/problem)|[MySolution](../master/MySolution/overload_operators_easy.h)|
+|21|[Prettyprint ](https://www.hackerrank.com/challenges/prettyprint/problem)|[MySolution](../master/MySolution/prettyprint_easy.h)|
+|22|[Rectange area ](https://www.hackerrank.com/challenges/rectange-area/problem)|[MySolution](../master/MySolution/rectange_area_easy.h)|
+|23|[Variable sized arrays ](https://www.hackerrank.com/challenges/variable-sized-arrays/problem)|[MySolution](../master/MySolution/variable_sized_arrays_easy.h)|
+|24|[Vector erase ](https://www.hackerrank.com/challenges/vector-erase/problem)|[MySolution](../master/MySolution/vector_erase_easy.h)|
+|25|[Vector sort ](https://www.hackerrank.com/challenges/vector-sort/problem)|[MySolution](../master/MySolution/vector_sort_easy.h)|
 
 
 <H3>Medium<H3>

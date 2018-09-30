@@ -1,44 +1,50 @@
-#include "include_easy.h"
-#include "include_medium.h"
+#include "include_easy"
+#include "include_medium"
+#include "include_hard"
+#include <iostream>
 
 void print()
 {
-	std::cout << "-----EASY-----\n";
-	std::cout << 1 << ": Arrays Introduction\n";
-	std::cout << 2 << ": Conditional Statements\n";
-	std::cout << 3 << ": Functions\n";
-	std::cout << 4 << ": For Loop\n";
-	std::cout << 5 << ": Input and Output\n";
-	std::cout << 6 << ": Pointer\n";
-	std::cout << 7 << ": Basic Data types\n";
-	std::cout << 8 << ": Variable Sized Arrays\n";
-	std::cout << 9 << ": String Stream\n";
-	std::cout << 10 << ": Strings\n";
-	std::cout << 11 << ": Structs\n";
-	std::cout << 12 << ": Class\n";
-	std::cout << 13 << ": Classes and Objects\n";
-	std::cout << 14 << ": Box it\n";
-	std::cout << 15 << ": Vecotr sort\n";
-	std::cout << 16 << ": Vecotr erase\n";
-	std::cout << 17 << ": Lowet Bound STL\n";
-	std::cout << 18 << ": Sets STL\n";
-	std::cout << 19 << ": Maps STL\n";
-	std::cout << 20 << ": Print Pretty\n";
-	std::cout << 21 << ": Inheritance Introduction\n";
-	std::cout << 22 << ": Rectangle Area\n";
-	std::cout << 23 << ": Overload Operators\n";
-	std::cout << 24 << ": Multi Level Inheritance\n";
-	std::cout << 25 << ": Class Templates\n";
-	std::cout << "-----MEDIUM-----\n";
-	std::cout << 26 << ": Inherited Code\n";
-	std::cout << 27 << ": Overloading Ostream Operator\n";
-	std::cout << 28 << ": Operator Overloading\n";
-	std::cout << 29 << ": Virtual Functions\n";
-	std::cout << 30 << ": Cpp Exception Handling\n";
-	std::cout << 31 << ": Accessing Inherited Functions\n";
-	std::cout << 32 << ": Hotel Prices\n";
-	std::cout << 33 << ": Cpp Class Template Specialization\n";
+	std::cout << 1 << arrays_introduction << std::endl;
+	std::cout << 2 << box_it << std::endl;
+	std::cout << 3 << classes_objects << std::endl;
+	std::cout << 4 << cpp_input_and_output << std::endl;
+	std::cout << 5 << cpp_lower_bound << std::endl;
+	std::cout << 6 << cpp_maps << std::endl;
+	std::cout << 7 << cpp_sets << std::endl;
+	std::cout << 8 << c_class_templates << std::endl;
+	std::cout << 9 << c_tutorial_basic_data_types << std::endl;
+	std::cout << 10 << c_tutorial_class << std::endl;
+	std::cout << 11 << c_tutorial_conditional_if_else << std::endl;
+	std::cout << 12 << c_tutorial_for_loop << std::endl;
+	std::cout << 13 << c_tutorial_functions << std::endl;
+	std::cout << 14 << c_tutorial_pointer << std::endl;
+	std::cout << 15 << c_tutorial_stringstream << std::endl;
+	std::cout << 16 << c_tutorial_strings << std::endl;
+	std::cout << 17 << c_tutorial_struct << std::endl;
+	std::cout << 18 << inheritance_introduction << std::endl;
+	std::cout << 19 << multi_level_inheritance_cpp << std::endl;
+	std::cout << 20 << overload_operators << std::endl;
+	std::cout << 21 << prettyprint << std::endl;
+	std::cout << 22 << rectange_area << std::endl;
+	std::cout << 23 << variable_sized_arrays << std::endl;
+	std::cout << 24 << vector_erase << std::endl;
+	std::cout << 25 << vector_sort << std::endl;
+	std::cout << 26 << accessing_inherited_functions << std::endl;
+	std::cout << 27 << cpp_class_template_specialization << std::endl;
+	std::cout << 28 << cpp_exception_handling << std::endl;
+	std::cout << 29 << exceptional_server << std::endl;
+	std::cout << 30 << hotel_prices << std::endl;
+	std::cout << 31 << inherited_code << std::endl;
+	std::cout << 32 << messages_order << std::endl;
+	std::cout << 33 << operator_overloading << std::endl;
+	std::cout << 34 << overloading_ostream_operator << std::endl;
+	std::cout << 35 << virtual_functions << std::endl;
+	std::cout << 36 << bitset_1_h << std::endl;
+	std::cout << 37 << magic_spells_h << std::endl;
 }
+
+
 
 int main()
 {
@@ -51,47 +57,44 @@ int main()
 		std::cin.ignore();
 		switch (n)
 		{
-#pragma region EASY
-		case 1: arrays(); break;
-		case 2: conditional_(); break;
-		case 3: functions(); break;
-		case 4: loop(); break;
-		case 5: output(); break;
-		case 6: pointer(); break;
-		case 7: types(); break;
-		case 8: sized_arrays(); break;
-		case 9: string_stream(); break;
-		case 10: strings(); break;
-		case 11: structs(); break;
-		case 12: class_(); break;
-		case 13: classes(); break;
-		case 14: check2(); break;
-		case 15: vecotor_sort(); break;
-		case 16: vector_erase(); break;
-		case 17: lower_bound(); break;
-		case 18: sets_STL(); break;
-		case 19: maps(); break;
-		case 20: print_pretty(); break;
-		case 21: inheritance_intro(); break;
-		case 22: rectange_area(); break;
-		case 23: overload_operators(); break;
-		case 24: multi_level_inheritance(); break;
-		case 25: class_templates(); break;
-#pragma endregion 
-
-#pragma region MEDIUM
-		case 26: code(); break;
-		case 27: overloading_ostream_operator_medium(); break;
-		case 28: operator_overloading_medium(); break;
-		case 29: virtual_functions_medium(); break;
-		case 30: cpp_exception_handling(); break;
-		case 31: accessing_inherited_functions(); break;
-		case 32: hotel_prices(); break;
-		case 33: cpp_class_template_specialization(); break;
-		case 34: messages_order(); break;
-		case 35: exceptional_server(); break;
-#pragma endregion 
-		case 0: break;
+			case 1: _2::arrays_introduction_easy.h; break;
+			case 2: _4::box_it_easy.h; break;
+			case 3: _15::classes_objects_easy.h; break;
+			case 4: _17::cpp_input_and_output_easy.h; break;
+			case 5: _18::cpp_lower_bound_easy.h; break;
+			case 6: _19::cpp_maps_easy.h; break;
+			case 7: _20::cpp_sets_easy.h; break;
+			case 8: _5::c_class_templates_easy.h; break;
+			case 9: _6::c_tutorial_basic_data_types_easy.h; break;
+			case 10: _7::c_tutorial_class_easy.h; break;
+			case 11: _8::c_tutorial_conditional_if_else_easy.h; break;
+			case 12: _9::c_tutorial_for_loop_easy.h; break;
+			case 13: _10::c_tutorial_functions_easy.h; break;
+			case 14: _11::c_tutorial_pointer_easy.h; break;
+			case 15: _13::c_tutorial_stringstream_easy.h; break;
+			case 16: _12::c_tutorial_strings_easy.h; break;
+			case 17: _14::c_tutorial_struct_easy.h; break;
+			case 18: _23::inheritance_introduction_easy.h; break;
+			case 19: _27::multi_level_inheritance_cpp_easy.h; break;
+			case 20: _29::overload_operators_easy.h; break;
+			case 21: _31::prettyprint_easy.h; break;
+			case 22: _32::rectange_area_easy.h; break;
+			case 23: _32::variable_sized_arrays_easy.h; break;
+			case 24: _33::vector_erase_easy.h; break;
+			case 25: _34::vector_sort_easy.h; break;
+			case 26: _1::accessing_inherited_functions_medium.h; break;
+			case 27: _15::cpp_class_template_specialization_medium.h; break;
+			case 28: _16::cpp_exception_handling_medium.h; break;
+			case 29: _21::exceptional_server_medium.h; break;
+			case 30: _22::hotel_prices_medium.h; break;
+			case 31: _24::inherited_code_medium.h; break;
+			case 32: _26::messages_order_medium.h; break;
+			case 33: _28::operator_overloading_medium.h; break;
+			case 34: _30::overloading_ostream_operator_medium.h; break;
+			case 35: _35::virtual_functions_medium.h; break;
+			case 36: _3::bitset_1_hard.h; break;
+			case 37: _25::magic_spells_hard.h; break;
+			case 0: break;
 		}
 	} while (n > 0);
 	return 0;

@@ -3,19 +3,22 @@
 #include <vector>
 #include <algorithm>
 
-int max(const std::vector<int>&a)
+namespace _10
 {
-	return *std::max_element(a.begin(), a.end());
-}
-
-void functions()
-{
-	std::vector<int> numbers;
-	for(int i = 0; i<4; i++)
+	int max(const std::vector<int>&a)
 	{
-		int a(0);
-		std::cin >> a;
-		numbers.push_back(a);
+		return *std::max_element(a.begin(), a.end());
 	}
-	std::cout << max(numbers);
+
+	void c_tutorial_functions()
+	{
+		std::vector<int> numbers;
+		for(int i = 0; i<4; i++)
+		{
+			int a(0);
+			std::cin >> a;
+			numbers.push_back(a);
+		}
+		std::cout << max(numbers);
+	}
 }

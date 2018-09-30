@@ -1,11 +1,14 @@
 #pragma once
 #include <iostream>
 
-void output()
+namespace _17
 {
-	int a(0);
-	int b(0);
-	int c(0);
-	std::cin >> a >> b >> c;
-	std::cout << a + b + c;
+	void cpp_input_and_output()
+	{
+		int a(0);
+		int b(0);
+		int c(0);
+		std::cin >> a >> b >> c;
+		std::cout << a + b + c;
+	}
 }
