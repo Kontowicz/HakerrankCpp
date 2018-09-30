@@ -1,4 +1,5 @@
-#pragma once#include "arrays_introduction_easy.h"
+#pragma once
+#include "arrays_introduction_easy.h"
 #include "box_it_easy.h"
 #include "classes_objects_easy.h"
 #include "cpp_input_and_output_easy.h"
@@ -18,6 +19,7 @@
 #include "inheritance_introduction_easy.h"
 #include "multi_level_inheritance_cpp_easy.h"
 #include "overload_operators_easy.h"
+#include "preprocessor_solution_easy.h"
 #include "prettyprint_easy.h"
 #include "rectange_area_easy.h"
 #include "variable_sized_arrays_easy.h"

@@ -100,12 +100,12 @@ def generate_include(path, files):
 		print(file_name)
 		file.write('#include "' + file_name[0] +'"\n')
 		
-	file = open(path+'include_medium.h\n', 'w')
+	file = open(path+'include_medium.h', 'w')
 	file.write('#pragma once')
 	for file_name in files[1]:
 		file.write('#include "' + file_name[0] +'"\n')
 		
-	file = open(path+'include_hard.h\n', 'w')
+	file = open(path+'include_hard.h', 'w')
 	file.write('#pragma once')
 	for file_name in files[2]:
 		file.write('#include "' + file_name[0] +'"\n')
