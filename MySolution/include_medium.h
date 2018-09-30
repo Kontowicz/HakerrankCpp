@@ -1,6 +1,7 @@
 #pragma once#include "accessing_inherited_functions_medium.h"
 #include "cpp_class_template_specialization_medium.h"
 #include "cpp_exception_handling_medium.h"
+#include "deque_stl_medium.h"
 #include "exceptional_server_medium.h"
 #include "hotel_prices_medium.h"
 #include "inherited_code_medium.h"

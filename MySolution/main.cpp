@@ -34,15 +34,16 @@ void print()
 	std::cout << 27 << accessing_inherited_functions << std::endl;
 	std::cout << 28 << cpp_class_template_specialization << std::endl;
 	std::cout << 29 << cpp_exception_handling << std::endl;
-	std::cout << 30 << exceptional_server << std::endl;
-	std::cout << 31 << hotel_prices << std::endl;
-	std::cout << 32 << inherited_code << std::endl;
-	std::cout << 33 << messages_order << std::endl;
-	std::cout << 34 << operator_overloading << std::endl;
-	std::cout << 35 << overloading_ostream_operator << std::endl;
-	std::cout << 36 << virtual_functions << std::endl;
-	std::cout << 37 << bitset_1_h << std::endl;
-	std::cout << 38 << magic_spells_h << std::endl;
+	std::cout << 30 << deque_stl << std::endl;
+	std::cout << 31 << exceptional_server << std::endl;
+	std::cout << 32 << hotel_prices << std::endl;
+	std::cout << 33 << inherited_code << std::endl;
+	std::cout << 34 << messages_order << std::endl;
+	std::cout << 35 << operator_overloading << std::endl;
+	std::cout << 36 << overloading_ostream_operator << std::endl;
+	std::cout << 37 << virtual_functions << std::endl;
+	std::cout << 38 << bitset_1_h << std::endl;
+	std::cout << 39 << magic_spells_h << std::endl;
 }
 
 
@@ -87,15 +88,16 @@ int main()
 			case 27: _1::accessing_inherited_functions_medium.h; break;
 			case 28: _15::cpp_class_template_specialization_medium.h; break;
 			case 29: _16::cpp_exception_handling_medium.h; break;
-			case 30: _21::exceptional_server_medium.h; break;
-			case 31: _22::hotel_prices_medium.h; break;
-			case 32: _24::inherited_code_medium.h; break;
-			case 33: _26::messages_order_medium.h; break;
-			case 34: _28::operator_overloading_medium.h; break;
-			case 35: _30::overloading_ostream_operator_medium.h; break;
-			case 36: _35::virtual_functions_medium.h; break;
-			case 37: _3::bitset_1_hard.h; break;
-			case 38: _25::magic_spells_hard.h; break;
+			case 30: _39::deque_stl_medium.h; break;
+			case 31: _21::exceptional_server_medium.h; break;
+			case 32: _22::hotel_prices_medium.h; break;
+			case 33: _24::inherited_code_medium.h; break;
+			case 34: _26::messages_order_medium.h; break;
+			case 35: _28::operator_overloading_medium.h; break;
+			case 36: _30::overloading_ostream_operator_medium.h; break;
+			case 37: _35::virtual_functions_medium.h; break;
+			case 38: _3::bitset_1_hard.h; break;
+			case 39: _25::magic_spells_hard.h; break;
 			case 0: break;
 		}
 	} while (n > 0);

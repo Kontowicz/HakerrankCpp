@@ -37,13 +37,14 @@
 |1|[Accessing inherited functions me](https://www.hackerrank.com/challenges/accessing-inherited-functions-m/problem)|[MySolution](../master/MySolution/accessing_inherited_functions_medium.h)|
 |2|[Cpp class template specialization me](https://www.hackerrank.com/challenges/cpp-class-template-specialization-m/problem)|[MySolution](../master/MySolution/cpp_class_template_specialization_medium.h)|
 |3|[Cpp exception handling me](https://www.hackerrank.com/challenges/cpp-exception-handling-m/problem)|[MySolution](../master/MySolution/cpp_exception_handling_medium.h)|
-|4|[Exceptional server me](https://www.hackerrank.com/challenges/exceptional-server-m/problem)|[MySolution](../master/MySolution/exceptional_server_medium.h)|
-|5|[Hotel prices me](https://www.hackerrank.com/challenges/hotel-prices-m/problem)|[MySolution](../master/MySolution/hotel_prices_medium.h)|
-|6|[Inherited code me](https://www.hackerrank.com/challenges/inherited-code-m/problem)|[MySolution](../master/MySolution/inherited_code_medium.h)|
-|7|[Messages order me](https://www.hackerrank.com/challenges/messages-order-m/problem)|[MySolution](../master/MySolution/messages_order_medium.h)|
-|8|[Operator overloading me](https://www.hackerrank.com/challenges/operator-overloading-m/problem)|[MySolution](../master/MySolution/operator_overloading_medium.h)|
-|9|[Overloading ostream operator me](https://www.hackerrank.com/challenges/overloading-ostream-operator-m/problem)|[MySolution](../master/MySolution/overloading_ostream_operator_medium.h)|
-|10|[Virtual functions me](https://www.hackerrank.com/challenges/virtual-functions-m/problem)|[MySolution](../master/MySolution/virtual_functions_medium.h)|
+|4|[Deque stl me](https://www.hackerrank.com/challenges/deque-stl-m/problem)|[MySolution](../master/MySolution/deque_stl_medium.h)|
+|5|[Exceptional server me](https://www.hackerrank.com/challenges/exceptional-server-m/problem)|[MySolution](../master/MySolution/exceptional_server_medium.h)|
+|6|[Hotel prices me](https://www.hackerrank.com/challenges/hotel-prices-m/problem)|[MySolution](../master/MySolution/hotel_prices_medium.h)|
+|7|[Inherited code me](https://www.hackerrank.com/challenges/inherited-code-m/problem)|[MySolution](../master/MySolution/inherited_code_medium.h)|
+|8|[Messages order me](https://www.hackerrank.com/challenges/messages-order-m/problem)|[MySolution](../master/MySolution/messages_order_medium.h)|
+|9|[Operator overloading me](https://www.hackerrank.com/challenges/operator-overloading-m/problem)|[MySolution](../master/MySolution/operator_overloading_medium.h)|
+|10|[Overloading ostream operator me](https://www.hackerrank.com/challenges/overloading-ostream-operator-m/problem)|[MySolution](../master/MySolution/overloading_ostream_operator_medium.h)|
+|11|[Virtual functions me](https://www.hackerrank.com/challenges/virtual-functions-m/problem)|[MySolution](../master/MySolution/virtual_functions_medium.h)|
 
 
 <H3>Hard<H3>
