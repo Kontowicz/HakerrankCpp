@@ -2,7 +2,7 @@
 
 namespace _39
 {
-	void printKMax(int arr[], int n, int k){
+	void printKMax(std::vector<int> arr, int n, int k){
 		//Write your code here.
 		std::vector<int> tmp;
 		for(int i = 0; i <= n - k; ++i)
@@ -31,7 +31,8 @@ namespace _39
 			int n,k;
 			cin >> n >> k;
 			int i;
-			int arr[n];
+			std::vector<int> arr;
+			arr.resize(n);
 			for(i=0;i<n;i++)
 				cin >> arr[i];
 			printKMax(arr, n, k);

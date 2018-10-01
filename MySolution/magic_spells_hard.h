@@ -85,7 +85,11 @@ namespace _25
 			string Y = SpellJournal::read();
 			int m = X.size();
 			int n = Y.size();
-			int L[m+1][n+1];
+			std::vector<std::vector<int>> L;
+			L.resize(m + 1);
+			for (auto e : L)
+				e.resize(n + 1);
+			
 			int i, j;
 			for (i = 0; i <= m; i++) {
 				for (j = 0; j <= n; j++) {

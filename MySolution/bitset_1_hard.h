@@ -15,12 +15,11 @@ namespace _3
 			if(first == second)
 			{
 				std::cout<< --i<<"\n";
-				return 0;
+
 			}
 			first = second;
 		}
 		std::cout<< n<< "\n";
-		
-		return 0;
+
 	}
 }

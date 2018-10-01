@@ -7,17 +7,19 @@
 #define foreach(v, i) for(int i=0; i<v.size(); i++)
 #define INF 100000000
 #define FUNCTION(which, sign) void which(int& limit, const int& v){(v sign limit)?(limit=v):limit=limit;}
+#if !defined toStr || !defined io || !defined FUNCTION || !defined INF
+#error Missing preprocessor definitions
+#endif 
+
+FUNCTION(minimum, < )
+	FUNCTION(maximum, > )
 using namespace std;
 namespace _38
 {
-	#if !defined toStr || !defined io || !defined FUNCTION || !defined INF
-	#error Missing preprocessor definitions
-	#endif 
 
-	FUNCTION(minimum, <)
-	FUNCTION(maximum, >)
 
-	void preprocessor_solution{
+	void preprocessor_solution()
+	{
 		int n; cin >> n;
 		vector<int> v(n);
 		foreach(v, i) {
@@ -31,7 +33,7 @@ namespace _38
 		}
 		int ans = mx - mn;
 		cout << toStr(Result =) <<' '<< ans;
-		return 0;
+
 
 	}
 }

@@ -113,9 +113,9 @@ def generate_include(path, files):
 		
 def generate_main(path, functions):
 	main_file = open(path+'main.cpp', 'w')
-	main_file.write('#include "include_easy"\n')
-	main_file.write('#include "include_medium"\n')
-	main_file.write('#include "include_hard"\n')
+	main_file.write('#include "include_easy.h"\n')
+	main_file.write('#include "include_medium.h"\n')
+	main_file.write('#include "include_hard.h"\n')
 	main_file.write('#include <iostream>\n\n')
 	
 	main_file.write('void print()\n{\n')
@@ -125,12 +125,15 @@ def generate_main(path, functions):
 	for func in functions:
 		for f in func:
 			if f[0][len(f[0])-6:len(f[0])] == 'easy.h':
-				main_file.write('\tstd::cout << ' + str(cnt) + ' << ' + str(f[0][0:len(f[0])-7]) + ' << std::endl;\n')
+				main_file.write('\tstd::cout << ' + str(cnt) + ' << "' + str(f[0][0:len(f[0])-7]) + '" << std::endl;\n')
+				tmp.append([cnt, f[0][0:len(f[0])-7], f[1]])
 			if f[0][len(f[0])-8:len(f[0])] == 'medium.h':
-				main_file.write('\tstd::cout << ' + str(cnt) + ' << ' + str(f[0][0:len(f[0])-9]) + ' << std::endl;\n')
+				main_file.write('\tstd::cout << ' + str(cnt) + ' << "' + str(f[0][0:len(f[0])-9]) + '" << std::endl;\n')
+				tmp.append([cnt, f[0][0:len(f[0])-9], f[1]])
 			if f[0][len(f[0])-6:len(f[0])] == 'hard.h':
-				main_file.write('\tstd::cout << ' + str(cnt) + ' << ' + str(f[0][0:len(f[0])-5]) + ' << std::endl;\n')
-			tmp.append([cnt, f[0], f[1]])
+				main_file.write('\tstd::cout << ' + str(cnt) + ' << "' + str(f[0][0:len(f[0])-7]) + '" << std::endl;\n')
+				tmp.append([cnt, f[0][0:len(f[0])-7], f[1]])
+
 			cnt = cnt + 1
 	main_file.write('}\n\n')
 	
@@ -140,14 +143,14 @@ def generate_main(path, functions):
 	main_file.write('\tint n(0);\n\tdo\n\t{\n\t\tprint();\n\t\tstd::cin >> n;\n\t\tstd::cin.clear();\n\t\tstd::cin.ignore();\n\t\tswitch (n)\n\t\t{\n')
 		
 	for fun in tmp:
-		main_file.write('\t\t\tcase ' + str(fun[0]) + ': '+ str(fun[2]) +'::'+str(fun[1])+'; break;\n')
+		main_file.write('\t\t\tcase ' + str(fun[0]) + ': '+ str(fun[2]) +'::'+str(fun[1])+'(); break;\n')
 		
 	main_file.write('\t\t\tcase 0: break;\n\t\t}\n\t} while (n > 0);\n\treturn 0;\n}')
 	
 	
 	
-path_to_directory = 'C:/Users/Alina/Desktop/Piotrek/new/HakerrankCpp/MySolution/'
-path_to_readme =    'C:/Users/Alina/Desktop/Piotrek/new/HakerrankCpp/'
+path_to_directory = 'E:/Repos/C++/HakerrankCpp/MySolution/'
+path_to_readme =    'E:/Repos/C++/HakerrankCpp/'
 
 add_top( path_to_readme )
 file = get_files(path_to_directory)
